@@ -20,14 +20,16 @@ public class LoginSteps {
     @Given("User is on login page")
     public void user_is_on_login_page (){
         driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+       // driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         driver.get("https://www.saucedemo.com/");
     }
 
-    @When("User enters valid username and password")
-    public void user_enters_valid_username_and_password (){
-        driver.findElement(By.id("user-name")).sendKeys("problem_user");
-        driver.findElement(By.id("password")).sendKeys("secret_sauce");
+    //@When("User enters valid username and password")
+    @When("User enters valid {string} and {string}")
+    public void user_enters_valid_and(String username, String password) throws InterruptedException {
+        driver.findElement(By.id("user-name")).sendKeys(username);
+        driver.findElement(By.id("password")).sendKeys(password);
+        Thread.sleep(2000);
     }
 
     @And("Clicks on Login Button")
