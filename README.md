@@ -41,7 +41,7 @@ Feature: Login page Automation of Sauce Demo App
 
 ## 📖 Sonuçlar
 
-🚀 Çalışmamızda kullandığımız Intellij IDEA üzerinde projemizi çalıştırdığımızda karşımıza çıkan başarılı sonuçlarımızı bu şekilde görebiliyoruz.
+🚀 Kullanmış olduğumuz Intellij IDE üzerinde, projemizi çalıştırdığımızda, karşımıza çıkan başarılı sonuçlarımızı bu şekilde görebiliyoruz.
 
 ![image](https://github.com/user-attachments/assets/cac98262-adb7-4c46-bc43-510754fda69c)
 
