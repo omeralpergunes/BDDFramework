@@ -1,7 +1,7 @@
 # Cucumber Test Otomasyon Projesi
 
-## 📌 Proje Hakkında
-Bu proje, **Davranış Odaklı Geliştirme (BDD)** yaklaşımını kullanarak test otomasyonu sağlamak için oluşturulmuş bir **Cucumber tabanlı Test Otomasyon Çerçevesidir**. **Gherkin** dilinde senaryolar yazarak testleri daha anlaşılır ve yönetilebilir hale getirir.
+## 📌 Doküman Hakkında
+Bu doküman, **Davranış Odaklı Geliştirme (BDD)** yaklaşımını kullanarak test otomasyonu sağlamak için oluşturulmuş bir **Cucumber tabanlı Test Otomasyon Çerçevesidir**. **Gherkin** dilinde senaryolar yazarak testleri daha anlaşılır ve yönetilebilir hale getirir. Bu dokümanı hazırlama sürecimdeki asıl amaç BDD yaklaşımı üzerine içerik oluşturmaktır ve bu sayede süreç içerisinde kendimi geliştirmektir.
 
 ## 🛠️ Kullanılan Teknolojiler
 - **Programlama Dili**: Java
